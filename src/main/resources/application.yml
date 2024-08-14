@@ -18,7 +18,7 @@ mq:
     maxMsgHeapNum: -1 #最大堆积消息数，默认 -1
     pollingWaitSeconds: 0 #消息接收长轮询等待时间, 默认0
     visibilityTimeout: 30 #消息可见性超时 默认30
-    maxMsgSize: 默认1048576 #消息最大长度，取值范围1024-1048576 Byte（即1-1024K），单位字节 默认1048576（topic模式下只有此项生效）
+    maxMsgSize: 1048576 #默认1048576 #消息最大长度，取值范围1024-1048576 Byte（即1-1024K），单位字节 默认1048576（topic模式下只有此项生效）
     msgRetentionSeconds: 345600 #消息保留周期，单位秒，默认345600，即4天
     createTime: -1 #队列创建时间，默认 -1
     lastModifyTime: -1 #队列属性最后修改时间，默认 -1
